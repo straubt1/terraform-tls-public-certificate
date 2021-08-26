@@ -6,7 +6,7 @@ variable "ca_email" {
 variable "prod_environment" {
   description = "(optional) If true, use the ACME production URL, default to true"
   default     = true
-  type        = boolean
+  type        = bool
 }
 
 variable "dns_challenge_provider" {
